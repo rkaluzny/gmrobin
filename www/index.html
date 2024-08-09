@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GM Robin</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="assets/fonts/Roboto_Condensed/RobotoCondensed-Italic-VariableFont_wght.ttf">
+    <link href="assets/fonts/Playwrite_AT/PlaywriteAT-Italic-VariableFont_wght.ttf">
+</head>
+
+<body>
+    <nav>
+        <div class="flex logo-container">
+            <img src="assets/img/logo.png" class="logo" alt="Image not found">
+            <h1>GM Robin</h1>
+        </div>
+        <div class="link-container">
+            <li class="link-li"><a href="index.html" class="link">Home</a></li>
+            <li class="link-li"><a href="https://www.facebook.com/profile.php?id=61563040595470" target="_blank"
+                    class="link">Facebook</a></li>
+            <li class="link-li"><a href="blog/blog.html" class="link">Blog</a></li>
+        </div>
+    </nav>
+
+    <div class="blog-container">
+        <a href="blog/blog.html"><button>My blog &#8594;</button></a>
+        <h2>Newest Blog Post:</h2>
+        <div class="blog-card">
+            <h2>Mastering Chess Endgames: The Key to Success</h2>
+            <p>
+                Chess endgames are often the decisive phase of a game, where precision and knowledge of the game's
+                subtleties can make the difference between victory and defeat. In this blog post, I want to introduce
+                you to the fascinating world of endgames, explain fundamental principles, and present some of the most
+                important endgame techniques.
+            </p>
+            <a href="blog/mastering-chess-endgames-the-key-to-success.html"><button>More</button></a>
+        </div>
+        <h2>Unfortunately I am not a grandmaster yet.</h2>
+    </div>
+
+    <footer>
+        &copy; 2024 Robin Kaluzny. All rights reserved.
+        <a href="imprint.html">Imprint</a>
+        <a href="https://www.facebook.com/profile.php?id=61563040595470" target="_blank" class="media_icon"><img
+                src="assets/img/facebook.png" alt="Image not found"></a>
+    </footer>
+
+    <script>
+        Notification.requestPermission().then(perm => {
+            alert(`New Blog: Mastering Chess Endgames: The Key to Success`);
+        })
+    </script>
+
+</body>
+
+</html>
